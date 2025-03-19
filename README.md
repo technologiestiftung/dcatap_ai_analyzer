@@ -137,3 +137,4 @@ Texts and content available as [CC BY](https://creativecommons.org/licenses/by/3
 
 ## Related Projects
 https://github.com/tifa365/dcatapde_ai_analyzer
+https://github.com/machinelearningZH/ogd_ai-analyzer/tree/main
