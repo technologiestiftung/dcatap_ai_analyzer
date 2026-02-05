@@ -214,6 +214,7 @@ def do_full_analysis(data, use_openai=True):
                 geo_granularity=data["geographical_granularity"],
                 tags=", ".join(data["formatted_tags"]),
                 author=data["author"],
+                few_shots=few_shots,
             )
         )
     else:
@@ -225,6 +226,7 @@ def do_full_analysis(data, use_openai=True):
                 geo_granularity=data["geographical_granularity"],
                 tags=", ".join(data["formatted_tags"]),
                 author=data["author"],
+                few_shots=few_shots,
             )
         )
 
